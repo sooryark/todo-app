@@ -39,7 +39,7 @@ const Tasks = ({ task, deleteTask, updateTaskFn }) => {
     <>
       {task?.map((item, index) => (
         <div
-          className="w-[450px] text-success bg-white border border-1 mb-1 rounded-md flex flex-wrap items-center justify-between py-2 px-4"
+          className="w-96 text-success bg-white border border-1 mb-1 rounded-md flex flex-wrap items-center justify-between py-2 px-4"
           key={index}
         >
           <p>{index + 1})</p>
