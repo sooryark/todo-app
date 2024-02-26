@@ -3,7 +3,7 @@ const SearchBox = ({ newTask, setNewTask, addTask }) => {
     <div className="flex gap-2 items-center">
       <input
         type="text"
-        className="border-none  w-96 
+        className="border-none  w-80 
        p-2 my-2 outline-none rounded-md bg-white"
         value={newTask}
         onChange={(e) => setNewTask(e.target.value)}
